@@ -78,8 +78,26 @@ class ODVGDataset(VisionDataset):
              
             vg_labels = list(pos_labels)
             num_to_add = min(len(neg_labels), self.max_labels-len(pos_labels))
+            """
+            # Original
             if num_to_add > 0:
                 vg_labels.extend(random.sample(neg_labels, num_to_add))
+            # END Original
+            """
+            # Implementation
+            if num_to_add > 0:
+                # 确保 neg_labels 是列表
+                if isinstance(neg_labels, dict):
+                    neg_labels = list(neg_labels.keys())  # 获取字典的键
+                elif isinstance(neg_labels, set):
+                    neg_labels = list(neg_labels)  # 转换集合为列表
+                
+                # 确保 neg_labels 中有足够的元素
+                if len(neg_labels) < num_to_add:
+                    raise ValueError("neg_labels is less than num_to_add")
+            
+                vg_labels.extend(random.sample(neg_labels, num_to_add))
+            #END Implementation
             
             # shuffle
             for i in range(len(vg_labels)-1, 0, -1):
