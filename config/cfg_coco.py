@@ -111,4 +111,6 @@ match_unstable_error = True
 use_detached_boxes_dec_out = False
 dn_scalar = 100
 
-use_coco_eval = True
+# use_coco_eval = True
+use_coco_eval = False
+label_list=['plane', 'baseball-diamond', 'bridge', 'ground-track-field', 'small-vehicle', 'large-vehicle', 'ship', 'tennis-court', 'basketball-court', 'storage-tank', 'soccer-ball-field', 'roundabout', 'harbor', 'swimming-pool', 'helicopter' ]
