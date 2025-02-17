@@ -189,6 +189,8 @@ def evaluate(model, criterion, postprocessors, data_loader, base_ds, device, out
                 file_name = f"{image_id:012d}.png"
                 res_pano[i]["image_id"] = image_id
                 res_pano[i]["file_name"] = file_name
+                print(f"Testing on: {file_name} with ID {image_id}")
+
 
             panoptic_evaluator.update(res_pano)
         
