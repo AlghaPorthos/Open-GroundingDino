@@ -11,6 +11,12 @@
       "label_map": "/content/Open-GroundingDino/datasets/DOTA_V1/DOTA_V1_DataMap_sw_0.json",
       "dataset_mode": "odvg"
     }
+    {
+      "root": "/content/Open-GroundingDino/datasets/STAR_Part/train/img",
+      "anno": "/content/Open-GroundingDino/datasets/STAR_Part/train/STAR_Train.jsonl",
+      "label_map": "/content/Open-GroundingDino/datasets/STAR_Part/STAR_Datamap.json",
+      "dataset_mode": "odvg"
+    }
   ],
   "val": [
     {
