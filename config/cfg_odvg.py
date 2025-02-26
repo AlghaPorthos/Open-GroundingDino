@@ -117,5 +117,6 @@ ema_epoch = 0
 use_detached_boxes_dec_out = False
 # use_coco_eval = True
 use_coco_eval = False
-label_list=['plane', 'baseball-diamond', 'bridge', 'ground-track-field', 'small-vehicle', 'large-vehicle', 'ship', 'tennis-court', 'basketball-court', 'storage-tank', 'soccer-ball-field', 'roundabout', 'harbor', 'swimming-pool', 'helicopter' ]
+# label_list=['plane', 'baseball-diamond', 'bridge', 'ground-track-field', 'small-vehicle', 'large-vehicle', 'ship', 'tennis-court', 'basketball-court', 'storage-tank', 'soccer-ball-field', 'roundabout', 'harbor', 'swimming-pool', 'helicopter' ]
+label_list=['plane', 'baseball-diamond', 'bridge', 'ground-track-field', 'small-vehicle', 'large-vehicle', 'ship', 'tennis-court', 'basketball-court', 'storage-tank', 'soccer-ball-field', 'roundabout', 'harbor', 'swimming-pool', 'helicopter''ship', 'boat', 'crane', 'goods_yard', 'tank', 'storehouse', 'breakwater', 'dock', 'airplane', 'boarding_bridge', 'runway',  'taxiway',  'terminal',  'apron',  'gas_station',  'truck',  'car',  'truck_parking',  'car_parking',  'cooling_tower',  'chimney',  'smoke',  'coal_yard',  'vapor',  'genset',  'cement_concrete_pavement',  'toll_gate',  'flood_dam',  'gravity_dam',  'lattice_tower',  'ship_lock',  'substation',  'ground_track_field',  'basketball_court',  'engineering_vehicle',  'foundation_pit',  'intersection',  'soccer_ball_field',  'tennis_court',  'tower_crane',  'unfinished_building',  'arch_dam',  'wind_mill',  'baseball_diamond',  'stadium',  'containment_vessel']
 dn_scalar = 100
