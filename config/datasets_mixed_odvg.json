@@ -7,16 +7,16 @@
     },
     {
       "root": "/content/Open-GroundingDino/datasets/DOTA_V1/train/images",
-      "anno": "/content/Open-GroundingDino/datasets/DOTA_V1/train/DOTA_trainval1024_od.jsonl",
-      "label_map": "/content/Open-GroundingDino/datasets/DOTA_V1/DOTA_V1_DataMap.json",
+      "anno": "/content/Open-GroundingDino/datasets/DOTA_V1/train/DOTA_trainval1024_od_sw_0.jsonl",
+      "label_map": "/content/Open-GroundingDino/datasets/DOTA_V1/DOTA_V1_DataMap_sw_0.json",
       "dataset_mode": "odvg"
     }
   ],
   "val": [
     {
       "root": "/content/Open-GroundingDino/datasets/DOTA_V1/val/images",
-      "anno": "/content/Open-GroundingDino/datasets/DOTA_V1/val/DOTA_trainval1024.json",
-      "label_map": "/content/Open-GroundingDino/datasets/DOTA_V1/DOTA_V1_DataMap.json",
+      "anno": "/content/Open-GroundingDino/datasets/DOTA_V1/val/DOTA_trainval1024_sw_0.json",
+      "label_map": "/content/Open-GroundingDino/datasets/DOTA_V1/DOTA_V1_DataMap_sw_0.json",
       "dataset_mode": "coco"
     }
   ]
